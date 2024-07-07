@@ -5,10 +5,13 @@
 body{
     min-height: 100vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: skyblue;
+    background-image: url('background.png');
+    background-position: center;
+    background-repeat:repeat-y;
 }
 nav{
     background-color: white;
+    backdrop-filter: blur(10px);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 nav ul{
@@ -29,6 +32,9 @@ nav a{
     align-items: center;
     color: black;
 
+}
+nav a:hover{
+    background-color: white;
 }
 nav li:first-child{
     margin-right: auto;
