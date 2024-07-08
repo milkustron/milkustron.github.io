@@ -7,7 +7,9 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: url('background.png');
     background-position: center;
-    background-repeat:repeat-y;
+    background-size: cover;
+    text-align: center;
+
 }
 nav{
     background-color: white;
@@ -38,4 +40,36 @@ nav a:hover{
 }
 nav li:first-child{
     margin-right: auto;
+}
+.container {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    flex-direction: column;
+
+}
+.typing-effect {
+    font-size: 20px;
+    color:gray;
+    white-space: nowrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.initials {
+    background: white;
+    font-size: 40px;
+    color: green;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 500px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
