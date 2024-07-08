@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const text = "Data Science. Data Analytics. ML solutions.";
     const typingElement = document.getElementById('typingEffect');
-    const delay = 200; 
+    const delay = 100; 
 
     function type() {
         typingElement.innerHTML = ""; 
