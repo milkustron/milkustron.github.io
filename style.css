@@ -15,6 +15,10 @@ nav{
     background-color: white;
     backdrop-filter: blur(10px);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 nav ul{
     width: 100%;
@@ -39,7 +43,8 @@ nav a:hover{
     background-color: white;
 }
 nav li:first-child{
-    margin-right: auto;
+    margin-right: auto; 
+    font-size: 30px;
 }
 .container {
     background: white;
