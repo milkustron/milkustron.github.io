@@ -1,16 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     min-height: 100vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: url('images/background2.png');
     background-position: center;
     background-size: cover;
     text-align: center;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .home {
     min-height: 100vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -18,9 +22,9 @@ body{
     background-position: center;
     background-size: cover;
     text-align: center;
-
 }
-nav{
+
+nav {
     background-color: white;
     backdrop-filter: blur(10px);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
@@ -29,37 +33,42 @@ nav{
     top: 0;
     z-index: 1000;
 }
-nav ul{
+
+nav ul {
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-nav li{
+
+nav li {
     height: 50px;
 }
-nav a{
+
+nav a {
     height: 100%;
     padding: 0 30px;
     text-decoration: none;
     display: flex;
     align-items: center;
     color: black;
-
 }
-nav a:hover{
+
+nav a:hover {
     color: gray;
 }
-nav li:first-child{
-    margin-right: auto; 
+
+nav li:first-child {
+    margin-right: auto;
     font-size: 30px;
 }
+
 .container {
     background: white;
     padding: 10px;
     border-radius: 5px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -69,15 +78,16 @@ nav li:first-child{
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
+
 .typing-effect {
     font-size: 30px;
-    color:gray;
+    color: gray;
     white-space: nowrap;
     justify-content: center;
     overflow: hidden;
 }
+
 .initials {
     background: white;
     font-size: 70px;
@@ -89,8 +99,9 @@ nav li:first-child{
     align-items: center;
     width: 80%;
     max-width: 1000px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .socials {
     background: transparent;
     display: flex;
@@ -100,30 +111,64 @@ nav li:first-child{
     left: 15%;
     transform: translate(-50%, -50%);
     align-items: flex-start;
-
 }
-a:link{
+
+a:link {
     color: black;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 a:visited {
     color: black;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.container-skills {
-    color: white;
-    padding: 10px;
+
+.skills-general,
+.skills-python {
+    background-color: white;
+    padding: 20px;
     border-radius: 5px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 30px;
     width: 100%;
     max-width: 1000px;
+    margin: 20px auto;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    transition: transform 0.3s;
     flex-direction: column;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    border: 1px solid gainsboro;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skill img {
+    max-width: 100px;
+    max-height: 100px;
+    filter: grayscale(80%);
+}
+
+.skill:hover img {
+    filter: grayscale(0%);
+}
+
+.skill p {
+    margin-top: auto;
+    font-size: 14px;
+    color: green;
+    font-size: large;
+    width: 100%;
 }
