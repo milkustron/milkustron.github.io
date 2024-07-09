@@ -5,6 +5,15 @@
 body{
     min-height: 100vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('background2.png');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+.home {
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: url('background.png');
     background-position: center;
     background-size: cover;
