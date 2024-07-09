@@ -91,3 +91,19 @@ nav li:first-child{
     max-width: 1000px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+.socials {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    align-items: flex-start;
+
+}
+a:link{
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
