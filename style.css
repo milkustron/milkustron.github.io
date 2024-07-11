@@ -173,9 +173,30 @@ a:visited {
     width: 100%;
 }
 
+.skills-container {
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    position: relative;
+}
+
 .section-title {
-    font-size: 24px;
-    color: black;
-    margin: 80px 0 20px 0;
+    font-size: 32px;
+    color: green;
+    margin: 20px 0 30px 0;
     background-color: white;
+    padding: 5px 10px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
 }
