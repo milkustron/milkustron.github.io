@@ -160,6 +160,7 @@ a:visited {
     max-width: 100px;
     max-height: 100px;
     filter: none;
+    margin: auto;
 }
 
 .skill:hover img {
