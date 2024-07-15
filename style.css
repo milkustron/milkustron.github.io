@@ -202,3 +202,19 @@ a:visited {
     transform: translateX(-50%);
     z-index: 10;
 }
+
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    margin: 20px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.profile img {
+    max-width: 400px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
