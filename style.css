@@ -76,7 +76,7 @@ nav li:first-child {
 
 .typing-effect {
     font-size: 30px;
-    color: gray;
+    color: dimgray;
     white-space: nowrap;
     justify-content: center;
     overflow: hidden;
@@ -120,8 +120,7 @@ a:visited {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.skills-description
- {
+.skills-description {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -204,8 +203,26 @@ a:visited {
 
 .about {
     background-color: white;
-    font-size: 22px;
+    font-size: 20px;
     text-align: right;
-    margin: 20px;
-    width: 100%;
+    margin: 50px;
+    padding: 3px;
+}
+
+.about-title {
+    background-color: white;
+    font-size: 35px;
+    color: green;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.about-image {
+    border-radius: 15%;
+    width: 200px;
+}
+
+.about-image:hover {
+    filter: grayscale(90%);
 }
