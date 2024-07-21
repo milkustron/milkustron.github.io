@@ -15,18 +15,12 @@ body {
     align-items: center;
 }
 
-.home {
-    min-height: 100vh;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.home {    
     background-image: url('images/background.png');
-    background-position: center;
-    background-size: cover;
-    text-align: center;
 }
 
 nav {
     background-color: white;
-    backdrop-filter: blur(10px);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
@@ -126,19 +120,14 @@ a:visited {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.skills-general,
-.skills-python {
+.skills-description
+ {
     padding: 20px;
-    border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     gap: 30px;
-    width: 100%;
-    max-width: 1000px;
     margin: 20px auto;
-    margin-bottom: 40px;
 }
 
 .skill {
@@ -177,7 +166,6 @@ a:visited {
 
 .skills-container {
     padding: 20px;
-    border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -186,14 +174,13 @@ a:visited {
     width: 100%;
     max-width: 1000px;
     margin: 20px auto;
-    margin-bottom: 40px;
     position: relative;
 }
 
 .section-title {
     font-size: 32px;
     color: green;
-    margin: 20px 0 30px 0;
+    margin-bottom: 10px;
     background-color: white;
     padding: 5px 10px;
     position: absolute;
@@ -205,12 +192,7 @@ a:visited {
 
 .profile {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: left;
-    margin: 50px;
-    width: 100%;
-    max-width: 1000px;
+
 }
 
 .profile img {
@@ -223,9 +205,7 @@ a:visited {
 .about {
     background-color: white;
     font-size: 22px;
-    align-items: center;
     text-align: right;
     margin: 20px;
     width: 100%;
-    max-width: 1000px;
 }
