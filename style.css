@@ -93,8 +93,7 @@ nav li:first-child {
     align-items: center;
     width: 80%;
     max-width: 1000px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
 .socials {
     background: transparent;
@@ -111,13 +110,13 @@ nav li:first-child {
 a:link {
     color: black;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a:visited {
     color: black;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .skills-description {
@@ -189,40 +188,42 @@ a:visited {
     z-index: 10;
 }
 
-.profile {
-    display: flex;
-
-}
-
-.profile img {
-    max-width: 400px;
-    border-radius: 50%;
-    margin-right: 40px;
-    margin-left: 200px;
-}
-
 .about {
     background-color: white;
     font-size: 20px;
-    text-align: right;
-    margin: 50px;
-    padding: 3px;
+    text-align: center;
+    margin: 30px;
+    padding: 15px;
+    width: 80%;
+    height: 600px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .about-title {
     background-color: white;
     font-size: 35px;
+    text-align: center;
     color: green;
-    text-align: right;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .about-image {
+    margin-top: 15px;
     border-radius: 15%;
     width: 200px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .about-image:hover {
     filter: grayscale(90%);
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 400px;
+    object-fit: cover;
+    text-align: center;
 }
